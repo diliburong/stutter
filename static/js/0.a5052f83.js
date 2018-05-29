@@ -1,0 +1,2 @@
+webpackJsonp([0],{Tn6x:function(e,i,n){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.default=function(e){console.log("This is my first middleware.")}}});
+//# sourceMappingURL=0.a5052f83.js.map

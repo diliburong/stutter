@@ -1,0 +1,2 @@
+webpackJsonp([2],{knvf:function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=o("zL8q");o.n(n);t.default=function(e){var t=e.store,o=e.redirect,s=e.route,a=t.state.auth.login;if(console.log(a),console.log(sessionStorage.getItem("token")),!a&&"/login"!==s.path)return Object(n.Message)({message:"请先登陆",duration:3e3}),o({path:"/login"})}}});
+//# sourceMappingURL=2.b5ef7fd5.js.map

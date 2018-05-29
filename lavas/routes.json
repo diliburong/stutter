@@ -1,0 +1,59 @@
+{
+    "mode": "history",
+    "base": "/",
+    "routes": [
+        {
+            "path": "/about",
+            "name": "about",
+            "meta": {}
+        },
+        {
+            "path": "/appshell",
+            "name": "appshell",
+            "meta": {}
+        },
+        {
+            "path": "/article",
+            "name": "article",
+            "meta": {},
+            "children": [
+                {
+                    "path": ":id",
+                    "name": "articleId",
+                    "meta": {}
+                },
+                {
+                    "path": "edit/:id",
+                    "name": "articleEditId",
+                    "meta": {}
+                }
+            ]
+        },
+        {
+            "path": "/create",
+            "name": "create",
+            "meta": {}
+        },
+        {
+            "path": "/home",
+            "name": "home",
+            "meta": {}
+        },
+        {
+            "path": "/",
+            "name": "index",
+            "meta": {}
+        },
+        {
+            "path": "/login",
+            "name": "login",
+            "meta": {}
+        },
+        {
+            "path": "/error",
+            "name": "error",
+            "meta": {},
+            "alias": "*"
+        }
+    ]
+}
